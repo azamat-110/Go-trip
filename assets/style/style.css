@@ -1,0 +1,241 @@
+@import url(fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  background: #3e8989;
+}
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+.nav__list {
+  display: flex;
+}
+.nav__list-link {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 30px 0 0;
+  transition: 0.3s;
+}
+.nav__list-link:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fff;
+}
+.nav__buttons {
+  display: flex;
+}
+.nav__input {
+  border-radius: 20px 0px 0px 20px;
+  background: #fff;
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+}
+.nav__submit {
+  border-radius: 0px 20px 20px 0px;
+  background: #295e5e;
+  padding: 8px;
+  border: none;
+  padding: 9px 14px;
+}
+::placeholder {
+  color: #898989;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav__submit-style {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main__bg {
+  background: url(../images/main_pic.png);
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bg__item-1 {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bg__item-2 {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 20px 0 50px 0;
+}
+
+.bg__btn {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #b4436c;
+  padding: 14px 75px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.bg__btn:hover {
+  background-color: #fff;
+  color: #b4436c;
+}
+.about__us-content {
+  display: flex;
+}
+
+.main__title {
+  text-align: center;
+  margin: 80px 0 50px 0;
+  color: #3e8989;
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 600;
+}
+.about__us-text-1 {
+  color: #000;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.about__us-text-2 {
+  color: #000;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.about__us-img {
+  margin-right: 20px;
+}
+.catalog {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.img__bgr {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  padding: 0 20px;
+  background: #efefef;
+  margin-bottom: 30px;
+}
+.catalog__link {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: block;
+  text-align: center;
+  transition: 0.5s;
+}
+.catalog__link:hover {
+  color: #b4436c;
+}
+.contacts__title {
+  color: #3e8989;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.contacts__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.contacts__text {
+  color: #000;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+  width: 555px;
+}
+.num__gmail {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__num {
+  color: #000;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 50px 0 20px 0;
+}
+.contacts__gmail {
+  color: #000;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer {
+  background: #3e8989;
+  height: 150px;
+}
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__links {
+  margin-top: 40px;
+}
+.footer__links-title {
+  margin: 0 15px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer__rights {
+  margin-top: 60px;
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+}
